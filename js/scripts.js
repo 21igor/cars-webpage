@@ -10,9 +10,9 @@ $(document).ready(function() {
     $(".first-name").text(firstName);
     $(".last-name").text(lastName);
     $(".address").text(address);
-    $(".postalcode").append(postalcode);
+    $(".postal-code").text(postalcode);
     $(".city").text(city);
-    
+
     $("#receipt").show();
 
     event.preventDefault();
